@@ -49,7 +49,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
         h3.text-center Analógica
-        p.mb-5 Los datos son presentados en el rango de un intervalo continuo. Por ejemplo, la temperatura corporal puede estar en los rangos de 36°C y 40°C (parámetros básicos), pudiendo obtener un valor de 37.5°C o 39.5°C.
+        p.mb-5 Los datos son presentados en el rango de un intervalo continuo. Por ejemplo, la temperatura corporal puede estar en los rangos de 36 °C y 40 °C (parámetros básicos), pudiendo obtener un valor de 37.5 °C o 39.5 °C.
       .col-md.tarjeta.color-secundario2.p-5
         .row.justify-content-center.mb-4
           .col-4
@@ -190,7 +190,7 @@
                 | Utiliza árboles para representar datos de manera lógica. 
               li 
                 i.lista-ul__vineta
-                | Los segmentos se relacionan de uno a varios
+                | Los segmentos se relacionan de uno a varios.
               li 
                 i.lista-ul__vineta
                 | Cada segmento tiene uno o más campos. 
@@ -1404,7 +1404,7 @@
                   | #[b Líder:] es aquella persona con capacidad para influir en los demás para darles orientación y dirección de manera efectiva para alcanzar las metas y objetivos propuestos. 
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
-                  | #[b Liderato:] corresponde con el status o la posición del líder dentro del equipo de trabajo. 
+                  | #[b Liderato:] corresponde con el #[em status] o la posición del líder dentro del equipo de trabajo. 
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
                   | #[b Liderazgo:] se considera liderazgo a la capacidad de influir, guiar y dirigir a los miembros del equipo hacia la obtención de las metas y los objetivos organizacionales. 

@@ -93,7 +93,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            h3 Hojas de control/hoja de comprobación/Checklist
+            h3 Hojas de control/hoja de comprobación/#[em Checklist]
             p Son formatos que se diseñan para la recolección de información relacionada con un proceso, procedimiento o actividad. 
           .col-md-6
             figure
