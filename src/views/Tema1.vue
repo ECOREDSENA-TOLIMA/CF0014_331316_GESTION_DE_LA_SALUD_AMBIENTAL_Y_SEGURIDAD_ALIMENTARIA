@@ -1045,32 +1045,23 @@
         h3.text-center Comunicación ascendente
         p De áreas operativas hacia las de gestión o gerencia. Se utiliza como método de retroalimentación de empleados a superiores, proporcionando ideas, solicitudes, sugerencias u cualquier solicitud o petición de tipo formal.
       
-    p(data-aos="fade-right").mb-5 Adicional se debe complementar la información de la comunicación interna, con la descripción de las formas de transferir la comunicación a nivel organizacional (ver tabla): 
+    p(data-aos="fade-right").mb-5 Adicional se debe complementar la información de la comunicación interna, con la descripción de las formas de transferir la comunicación a nivel organizacional (ver figura): 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col(data-aos="fade-right")
+      .col.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Formas de comunicación</em>
-        .tabla-a.color-acento-contenido
-          table
-            caption Nota. Dirección de la salud. Drovetta (1992).
-            thead
-              tr
-                th Comunicación en rueda
-                th Comunicación en círculo
-                th Comunicación en canales completos
-            tbody
-              tr(style="background-color:#F6F6F6")
-                td 
-                  img(src='@/assets/curso/temas/tema1/50.svg', alt='Texto que describa la imagen')
-                td 
-                  img(src='@/assets/curso/temas/tema1/51.svg', alt='Texto que describa la imagen')
-                td
-                  img(src='@/assets/curso/temas/tema1/52.svg', alt='Texto que describa la imagen')
-              tr
-                td En esta forma de comunicación un punto central es quien genera la comunicación hacia diversas áreas o centros. Se utiliza en la ejecución de tareas fáciles. 
-                td Esta forma de comunicación se realiza entre las áreas que se encuentran relacionadas. Se utiliza en la ejecución de tareas más complejas. 
-                td Esta forma de comunicación se realiza entre todas las áreas y centros de la organización. Requiere de la participación de todos. Se utiliza en la ejecución de tareas de alta complejidad.   
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Formas de comunicación</em>
+        figure
+          img.mb-3(src='@/assets/curso/temas/tema1/95.svg', alt='La figura 3 indica las formas de comunicación, las cuales pueden ser en rueda, en círculo y en canales completos.')
+        figcaption Nota: Dirección de la salud. Drovetta (1992).
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col.movil(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Formas de comunicación</em>
+        figure
+          img.mb-3(src='@/assets/curso/temas/tema1/95-m.svg', alt='La figura 3 indica las formas de comunicación, las cuales pueden ser en rueda, en círculo y en canales completos.')
+        figcaption Nota: Dirección de la salud. Drovetta (1992).
 
     p(data-aos="fade-right").mb-5 Por otro lado, la comunicación externa es aquella que permite establecer contacto con el público, los clientes u otras personas externas a la organización. Los objetivos principales de la comunicación externa corresponden con el manejo de la imagen y posición competitiva:
 
@@ -1148,33 +1139,33 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Comunicación unidireccional </em>
+          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Comunicación unidireccional </em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/58.svg', alt='En la figura 3 se muestra un ejemplo de la comunicación unidireccional.')
+          img.mb-3(src='@/assets/curso/temas/tema1/58.svg', alt='En la figura 4 se muestra un ejemplo de la comunicación unidireccional.')
         figcaption Nota: Dirección de la salud. Drovetta (1992).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Comunicación unidireccional </em>
+          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Comunicación unidireccional </em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/58-m.svg', alt='En la figura 3 se muestra un ejemplo de la comunicación unidireccional.')
+          img.mb-3(src='@/assets/curso/temas/tema1/58-m.svg', alt='En la figura 4 se muestra un ejemplo de la comunicación unidireccional.')
         figcaption Nota: Dirección de la salud. Drovetta (1992).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Comunicación bidireccional</em>
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Comunicación bidireccional</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/59.svg', alt='En la figura 4 se muestra un ejemplo de la comunicación unidireccional.')
+          img.mb-3(src='@/assets/curso/temas/tema1/59.svg', alt='En la figura 5 se muestra un ejemplo de la comunicación unidireccional.')
         figcaption Nota: Dirección de la salud. Drovetta (1992).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Comunicación bidireccional</em>
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Comunicación bidireccional</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/59-m.svg', alt='En la figura 4 se muestra un ejemplo de la comunicación unidireccional.')
+          img.mb-3(src='@/assets/curso/temas/tema1/59-m.svg', alt='En la figura 5 se muestra un ejemplo de la comunicación unidireccional.')
         figcaption Nota: Dirección de la salud. Drovetta (1992).
 
     p(data-aos="fade-right").mb-5 Para que las personas puedan lograr una comunicación asertiva y efectiva se deben cumplir con los elementos descritos anteriormente, los cuales permiten fortalecer los lazos organizacionales y el trabajo en equipo. 

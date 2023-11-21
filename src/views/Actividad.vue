@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Factores de riesgo en salud.
-        p.mb-4 #[b Objetivo] Identificar los principales conceptos relacionados con la gestión de riesgos en la salud ambiental, ampliando la visión de los factores que inciden en la calidad de vida y el bienestar de las personas.
+          h2 Importancia de la gestión de la calidad.
+        p.mb-4 #[b Objetivo] Evaluar la comprensión de los conceptos relacionados con la mejora continua, ampliando su visión en relación con la gestión de la calidad en las organizaciones.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

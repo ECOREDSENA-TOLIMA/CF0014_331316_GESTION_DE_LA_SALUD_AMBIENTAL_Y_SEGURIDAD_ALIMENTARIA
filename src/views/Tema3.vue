@@ -48,7 +48,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Resumen importancia de los sistemas de verificación de tareas y resultados</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Resumen importancia de los sistemas de verificación de tareas y resultados</em>
         .tabla-a.color-acento-contenido
           table
             caption Nota. Evaluación de proyectos sociales. Quintero (1997). 
@@ -244,7 +244,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 4.] <em>Herramientas para la gestión de la calidad</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Herramientas para la gestión de la calidad</em>
         .tabla-a.color-acento-contenido
           table.text-center
             caption Nota. Herramientas para la mejora de la calidad: métodos para la mejora continua y la solución de problemas. López Lemos (2016). 

@@ -446,7 +446,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Presentación de indicadores</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Presentación de indicadores</em>
         .tabla-a.color-acento-contenido
           table.text-center
             caption Nota. Evaluación de proyectos sociales. Quintero (1997). 
@@ -594,17 +594,17 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8.desktop(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Pirámide del control empresarial</em>
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Pirámide del control empresarial</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema2/36.svg', alt='En la figura 5 se muestra la pirámide del control empresarial que contiene 5 niveles que van desde el control de las operaciones hasta el de las responsabilidades.')
+          img.mb-3(src='@/assets/curso/temas/tema2/36.svg', alt='En la figura 6 se muestra la pirámide del control empresarial que contiene 5 niveles que van desde el control de las operaciones hasta el de las responsabilidades.')
         figcaption Nota. La gestión del control de la empresa. Eslava (2013). 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.movil(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Pirámide del control empresarial</em>
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Pirámide del control empresarial</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema2/36-m.svg', alt='En la figura 5 se muestra la pirámide del control empresarial que contiene 5 niveles que van desde el control de las operaciones hasta el de las responsabilidades.')
+          img.mb-3(src='@/assets/curso/temas/tema2/36-m.svg', alt='En la figura 6 se muestra la pirámide del control empresarial que contiene 5 niveles que van desde el control de las operaciones hasta el de las responsabilidades.')
         figcaption Nota. La gestión del control de la empresa. Eslava (2013). 
 
     p(data-aos="fade-right").mb-5 Acorde con lo expuesto por Paganini, el proceso de control de la calidad tiene tres aspectos relevantes que son: 
