@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Importancia de la gestión de la calidad.
-        p.mb-4 #[b Objetivo] Evaluar la comprensión de los conceptos relacionados con la mejora continua, ampliando su visión en relación con la gestión de la calidad en las organizaciones.
+        p.mb-4 #[b Objetivo:] evaluar la comprensión de los conceptos relacionados con la mejora continua, ampliando su visión en relación con la gestión de la calidad en las organizaciones.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
