@@ -25,14 +25,14 @@
             i.fas.fa-circle
             | El sistema de seguimiento y evaluación tiene el propósito de contribuir en el conocimiento de los avances y progresos, evaluando el nivel de cumplimiento y propiciando la información necesaria que permita implementar las debidas acciones correctivas, preventivas, de seguimiento que sean necesarias y así mismo sistematizar las experiencias. 
 
-    p(data-aos="fade-right").mb-5 La verificación de las tareas y resultados lleva implícito el sistema de seguimiento, el cual implica actividades claras como la observación, el registro y la sistematización de las actividades y tareas ejecutadas y los recursos institucionales que se han utilizado en función de estas. Los procesos de verificación soportan al proceso de evaluación el cual funciona como la estimación clara de los productos, resultados, efectos e impactos tanto a nivel interno como externo de la organización. 
+    p(data-aos="fade-right").mb-5 La verificación de las tareas y resultados lleva implícito el sistema de seguimiento, el cual implica actividades claras como la observación, el registro y la sistematización de las actividades y tareas ejecutadas y los recursos institucionales que se han utilizado en función de estas. Los procesos de verificación soportan al proceso de evaluación, el cual funciona como la estimación clara de los productos, resultados, efectos e impactos tanto a nivel interno como externo de la organización. 
 
     .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
       .row.justify-content-center.align-items-center
-        .col-2
+        .col-md-2.col-12.mb-2.mb-md-0
           img(src='@/assets/curso/temas/tema3/2.svg')
 
-        .col-10
+        .col-md-10.col-12.mb-2.mb-md-0
           p Las acciones de verificación deben indicar de manera detallada y con profundidad todos los elementos relativos a sus funciones, las metodologías empleadas, las variables, indicadores e instrumentos; así como todas las áreas y el personal que participa en el logro de los objetivos organizacionales. Las acciones dirigidas a la verificación se pueden considerar bajo dos (2) aspectos enfocados en:
           ul.lista-ul--color
             li 
@@ -73,17 +73,18 @@
 
     .row.mb-5
       .col-10
-        p Acorde con los elementos vistos respecto a el control y el seguimiento, es indispensable tener en cuenta los instrumentos por medio de los cuales se puedan ejercer las acciones de control y seguimiento. Como se enunció anteriormente, las herramientas de control y seguimiento son definidas como los elementos necesarios para la búsqueda de la información en el marco del estudio de los problemas de calidad y al análisis de los factores que la determinan. Existen herramientas (instrumentos) enfocados hacia el control y la mejora de la calidad. 
+        p Acorde con los elementos vistos respecto al control y el seguimiento, es indispensable tener en cuenta los instrumentos por medio de los cuales se puedan ejercer las acciones de control y seguimiento. Como se enunció anteriormente, las herramientas de control y seguimiento son definidas como los elementos necesarios para la búsqueda de la información en el marco del estudio de los problemas de calidad y al análisis de los factores que la determinan. Existen herramientas (instrumentos) enfocados hacia el control y la mejora de la calidad. 
       .col-2 
         img(src='@/assets/curso/temas/tema3/3.svg')
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Instrumentos/herramientas de control de calidad
-
+    .row.align-items-center.mb-4(data-aos="fade-down-right")
+      .d-flex.titulo-h3
+        img(src='@/assets/curso/temas/icono.svg', style="width: 30px", alt='')
+        h3.mb-0.ms-3(style=" color: #455B2D;") Instrumentos/herramientas de control de calidad
+    
     .row.mb-5
       .col-10
-        p Estas herramientas se caracterizan porque pueden ser manejadas por todos los miembros de la organización, ser empleadas en todos los niveles de operación y favorecer la recopilación y organización de datos logrando identificar problemas para implementar las acciones correctivas a las que den lugar. Este tipo de instrumentos son utilizados cuando se cuenta con información respecto al problema o situación a evaluar, pero requiere ser organizada y agrupada si es el caso, para su posterior análisis. 
+        p Estas herramientas se caracterizan porque pueden ser manejadas por todos los miembros de la organización, ser empleadas en todos los niveles de operación y favorecer la recopilación y organización de datos, logrando identificar problemas para implementar las acciones correctivas a las que den lugar. Este tipo de instrumentos son utilizados cuando se cuenta con información respecto al problema o situación a evaluar, pero requiere ser organizada y agrupada si es el caso, para su posterior análisis. 
       .col-2 
         img(src='@/assets/curso/temas/tema3/4.svg')
 
@@ -110,7 +111,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Diagrama de Ishikawa/causa - efecto
-            p Por medio de esta se logra conocer y clasificar las causas relacionadas a un problema.  Se pueden identificar algunas categorías como causas primarias las cuales pueden ser insumos, personas, maquinaria, procesos y el entorno. A partir de estos, se realiza identificación de causas secundarias y se van ramificando, obteniendo forma de espina.
+            p Por medio de esta se logra conocer y clasificar las causas relacionadas a un problema.  Se pueden identificar algunas categorías como causas primarias, las cuales pueden ser insumos, personas, maquinaria, procesos y el entorno. A partir de estos, se realiza identificación de causas secundarias y se van ramificando, obteniendo forma de espina.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/7.png', alt='Texto que describa la imagen')
@@ -147,14 +148,15 @@
             figure
               img(src='@/assets/curso/temas/tema3/11.png', alt='Texto que describa la imagen')
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Instrumentos/herramientas de mejora de la calidad
+    .row.align-items-center.mb-4(data-aos="fade-down-right")
+      .d-flex.titulo-h3
+        img(src='@/assets/curso/temas/icono.svg', style="width: 30px", alt='')
+        h3.mb-0.ms-3(style=" color: #455B2D;") Instrumentos/herramientas de mejora de la calidad
 
     .row.mb-5
-      .col-2 
+      .col-md-2.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema3/12.svg')
-      .col-10
+      .col-md-10.col-12.mb-2.mb-md-0
         p Favorecen los procesos de mejora en aquellas situaciones que se presentan, pero de las cuales existen pocos datos. El objetivo de estas herramientas es más proactivo ya que facilita la organización, conocer los problemas y posibles fallos del servicio o producto. Estas herramientas para la mejora de la calidad actúan como un complemento a las herramientas de control de la calidad y busca que todas las áreas de la organización, incluyendo las directivas participen en la gestión de la calidad.
         p Las 7 herramientas de mejoramiento son:
 
@@ -219,12 +221,12 @@
     p(data-aos="fade-right").mb-5 La relación entre las distintas herramientas de mejora continua se puede resumir de la siguiente manera:  
 
     .row.justify-content-center.mb-5
-      .col-10
+      .col-md-10.col-12.mb-2.mb-md-0
         .tarjeta.color-secundario2.p-4(style="border-radius:0")
           .row.justify-content-center.align-items-center
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema3/20.svg')
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -277,11 +279,11 @@
 
     .tarjeta.color-primario1.p-4(style="border-radius:0").mb-5
       .row.justify-content-center.align-items-center
-        .col-3
+        .col-md-3.col-12.mb-2.mb-md-0
           img(src='@/assets/curso/temas/tema3/21.svg')
 
-        .col-9
-          p Dentro de las herramientas de control y de mejoramiento vistas, es importante resaltar la utilidad de la hoja de comprobación o más comúnmente llamada de verificación o #[b #[em checklist]] ya que es una herramienta que permite simplificar y facilitar el proceso para la toma de los datos por parte tanto del personal operativo como directivo.
+        .col-md-9 .col-12.mb-2.mb-md-0
+          p Dentro de las herramientas de control y de mejoramiento vistas, es importante resaltar la utilidad de la hoja de comprobación o más comúnmente llamada de verificación o #[b #[em checklist,]] ya que es una herramienta que permite simplificar y facilitar el proceso para la toma de los datos por parte tanto del personal operativo como directivo.
           p  Posterior a la recolección de los datos estos se llevan a otras herramientas para procesar la información obtenida y así de esta manera obtener el diagnóstico esperado. 
 
     p(data-aos="fade-right").mb-5 Para el diseño de la hoja de comprobación se debe tener claridad en qué y por qué se desea controlar u obtener los datos. Adicional a esto, se debe garantizar que la hoja de verificación contenga la información que sea necesaria sin pasar por el exceso o por defecto de esta. La información obtenida de este tipo de listas puede darse en dos líneas: 
@@ -326,12 +328,12 @@
     p(data-aos="fade-right").mb-5 Para la implementación de la hoja de verificación es importante definir con claridad desde el inicio el cómo, quién y durante cuánto tiempo se debe conservar la información obtenida, además de concretar qué elementos son importantes para garantizar que dicha información sea confiable y a quién debe ser entregada. También se debe dejar en claro cuál es el uso de la información obtenida y el fin de los resultados obtenidos. 
 
     .row.justify-content-center.mb-5
-      .col-10
+      .col-md-10.col-12.mb-2.mb-md-0
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.justify-content-center.align-items-center
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema3/23.svg')
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               p #[b Acciones correctivas:] la acción correctiva permite identificar las causas reales de las desviaciones o problemas de calidad detectados. 
 
     p(data-aos="fade-right") En el marco de implementar las acciones correctivas se debe tener claridad respecto en los términos que se relacionan en este campo, ya que una corrección puede significar una respuesta inmediata que resuelve la no conformidad presentada, pero sin lograr una identificación de la causa raíz que produce dicho problema o no conformidad, lo cual puede provocar que la no conformidad se presente en repetidas ocasiones. 
@@ -377,7 +379,7 @@
       img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
       .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Informes de gestión
 
-    p(data-aos="fade-right") El informe de gestión es un documento que toma como referencia el conjunto de datos en función de los resultados esperados, teniendo en cuenta los objetivos estratégicos de la organización. Por lo general los informes de gestión se presentan en función de un periodo de tiempo el cual es definido por la organización. Los informes de gestión permiten ver con claridad los avances, dificultades y aspectos por mejorar en función de los objetivos estratégicos. 
+    p(data-aos="fade-right") El informe de gestión es un documento que toma como referencia el conjunto de datos en función de los resultados esperados, teniendo en cuenta los objetivos estratégicos de la organización. Por lo general, los informes de gestión se presentan en función de un periodo de tiempo, el cual es definido por la organización. Los informes de gestión permiten ver con claridad los avances, dificultades y aspectos por mejorar en función de los objetivos estratégicos. 
 
     p(data-aos="fade-right").mb-5 Para realizar el informe de gestión se deben tener en cuenta unos elementos básicos los cuales se describen a continuación:
 
@@ -511,7 +513,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/38.png', alt='Texto que describa la imagen')
             .col-md-6
-              p Se debe realizar una revisión final de manera minuciosa. Evaluar que no se vayan a presentar datos equivocados fallas en la ortografía o demás errores que pueda opacar el objetivo inicial del informe el cual es el presentar datos consolidados para la toma de decisiones.
+              p Se debe realizar una revisión final de manera minuciosa. Evaluar que no se vayan a presentar datos equivocados, fallas en la ortografía o demás errores que pueda opacar el objetivo inicial del informe el cual es el presentar datos consolidados para la toma de decisiones.
 
 
 </template>

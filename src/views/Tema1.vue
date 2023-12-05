@@ -8,17 +8,17 @@
       h1 Seguimiento y control
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-4
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/1.png')
 
-      .col-8
+      .col-md-8.col-12.mb-2.mb-md-0
         p.mb-5 Para iniciar la revisión de los aspectos esenciales de seguimiento y control, es necesario revisar los conceptos básicos relacionados con las #[b herramientas informáticas y los principios éticos de la información], ya que estos son básicos para darle un correcto manejo a los datos e información que se obtiene en el desarrollo de las actividades de mejora continua.
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row 
-            .col-4
+            .col-md-4.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/2.svg')
-            .col-8
-              p A nivel general las herramientas informáticas constan de elementos esenciales:
+            .col-md-8.col-12.mb-2.mb-md-0
+              p A nivel general, las herramientas informáticas constan de elementos esenciales:
               .row 
                 .col-6
                   ul.lista-ul--color
@@ -40,7 +40,7 @@
                       i.fas.fa-chevron-right(style="color:#00223D")
                       | Correo electrónico.
 
-    p(data-aos="fade-right").mb-5 Para comprender bien el uso de estas herramientas informáticas, se deben conocer los elementos del ordenador, que es el insumo básico para todo tipo de acción dirigida a su uso.  La información, puede ser presentada bajo dos líneas:
+    p(data-aos="fade-right").mb-5 Para comprender bien el uso de estas herramientas informáticas, se deben conocer los elementos del ordenador, que es el insumo básico para todo tipo de acción dirigida a su uso.  La información puede ser presentada bajo dos líneas:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario1.p-5
@@ -148,7 +148,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 Presentaciones
             p Corresponden con el grupo de elementos que ayuda a exponer un tema, evento o idea de forma gráfica y visual.
-            p Por lo general, las presentaciones combinan comunicación viva con material de tipo visual. Una de las herramientas más usadas para realizar presentaciones en Power Point.
+            p Por lo general, las presentaciones combinan comunicación viva con material de tipo visual. Una de las herramientas más usadas para realizar presentaciones en PowerPoint.
 
           .col-md-6
             figure
@@ -179,10 +179,10 @@
     .BGIMG02.p-4.mb-5
       PasosB.color-primario
         .row(titulo="Jerárquico")
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/10.png', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h2 Jerárquico
             ul.lista-ul
               li 
@@ -206,10 +206,10 @@
             p #[b Ejemplo:] cada establecimiento sujeto a inspección, vigilancia y control puede ser evaluado por varios entes de control y tendrá muchas fechas de auditoría.
 
         .row(titulo="De Red")
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/11.png', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h2 De Red
             ul.lista-ul
               li 
@@ -221,10 +221,10 @@
             p #[b Ejemplo:] Un inspector realiza la evaluación de inspección, vigilancia y control a muchos establecimientos y cada establecimiento puede ser evaluado por muchos inspectores. 
 
         .row(titulo="Relacional")
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/12.png', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h2 Relacional
             ul.lista-ul
               li 
@@ -246,10 +246,10 @@
             p #[b Ejemplo:] cada fila para el nombre de las IPS, y cada columna contiene los datos de atributos de calidad relacionados con pertinencia, accesibilidad, continuidad, oportunidad y seguridad. 
         
         .row(titulo="Documental")
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/13.png', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h2 Documental
             ul.lista-ul
               li 
@@ -286,9 +286,9 @@
 
     .row.justify-content-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario1.p-4.col-ipad
+        .tarjeta.color-primario1.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/14.svg' alt='AvatarTop')
           h3 Organismo productor
           p Bases de datos de:
@@ -306,9 +306,9 @@
               i.lista-ul__vineta
               | Cooperación – Red.
 
-        .tarjeta.color-primario1.p-4.col-ipad
+        .tarjeta.color-primario1.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/15.svg' alt='AvatarTop')
           h3 Modo de acceso
           p Se pueden generar:
@@ -323,9 +323,9 @@
               i.lista-ul__vineta
               | Base de datos en línea (conexión telefónica, internet, vía web).
 
-        .tarjeta.color-primario1.p-4.col-ipad
+        .tarjeta.color-primario1.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/16.svg' alt='AvatarTop')
           h3 Cobertura temática y destinatario
           p Bases de datos como:
@@ -349,9 +349,9 @@
               i.lista-ul__vineta
               | Del gran público.
 
-        .tarjeta.color-primario1.p-4.col-ipad
+        .tarjeta.color-primario1.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/17.svg' alt='AvatarTop')
           h3 Modelo de tratamiento documental
           p Corresponde con las bases de datos:
@@ -367,9 +367,9 @@
               i.lista-ul__vineta
               | Con análisis documental completo e índice de citas. 
 
-        .tarjeta.color-primario1.p-4.col-ipad
+        .tarjeta.color-primario1.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/18.svg' alt='AvatarTop')
           h3 Cobertura documental
           p Puede ser de uno o varios documentos.
@@ -427,7 +427,7 @@
                         | Por medio de códigos. 
 
     p(data-aos="fade-right") Tal y como lo expone la UNESCO, los denominados principios éticos fueron debatidos teniendo en cuenta los criterios de tipo ético, legal y social respecto al uso de las diversas tecnologías de la información y de la comunicación (TIC).  
-    p(data-aos="fade-right").mb-5 La UNESCO en estrecha colaboración con los estados miembros, realiza un gran trabajo en pro del fortalecimiento de las dimensiones éticas de la sociedad de la información lo que favorece las decisiones de la Cumbre Mundial sobre la Sociedad de la Información (CMSI), quienes plantean un acceso libre, sin presencia de obstáculos y utilizando redes interactivas.  
+    p(data-aos="fade-right").mb-5 La UNESCO en estrecha colaboración con los estados miembros, realiza un gran trabajo en pro del fortalecimiento de las dimensiones éticas de la sociedad de la información, lo que favorece las decisiones de la Cumbre Mundial sobre la Sociedad de la Información (CMSI), quienes plantean un acceso libre, sin presencia de obstáculos y utilizando redes interactivas.  
 
     .tarjeta.color-secundario2.p-4.mb-5(style="border-radius:01")
       .row.justify-content-center
@@ -501,10 +501,10 @@
     p(data-aos="fade-right").mb-5 Es necesario reconocer que todo tipo de decisión organizacional está basada en datos y premisas, por tanto, estos requieren que sean analizados detalladamente y que contengan información veraz y de calidad. A nivel organizacional existen tres tipos de información:
 
     .row(data-aos="fade-left").mb-5
-      .col-4.mb-4.mb-lg-0
+      .col-md-4.col-12.mb-2.mb-md-0
         .tarjeta--boton.color-secundario.p-4(style='height:100%')
           .row.justify-content-center.mb-3
-            .col-7
+            .col-md-7.col-12.mb-2.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
 
@@ -520,10 +520,10 @@
               i.lista-ul__vineta
               | Permite validar los avances técnicos, conocer las necesidades de los usuarios y conseguir liquidez para la organización.
 
-      .col-4.mb-4.mb-lg-0
+      .col-md-4.col-12.mb-2.mb-md-0
         .tarjeta--boton.color-primario.p-4(style='height:100%')
           .row.justify-content-center.mb-3
-            .col-7
+            .col-md-7.col-12.mb-2.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/23.svg', alt='Texto que describa la imagen')
 
@@ -537,10 +537,10 @@
               | Ayuda en la puesta en marcha de la planificación. 
 
 
-      .col-4.mb-4.mb-sm-0
+      .col-md-4.col-12.mb-2.mb-md-0
         .tarjeta--boton.color-acento-botones.p-4(style='height:100%')
           .row.justify-content-center.mb-3
-            .col-7
+            .col-md-7.col-12.mb-2.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/24.svg', alt='Texto que describa la imagen')
 
@@ -554,15 +554,15 @@
               | Ayuda para verificar el cumplimiento de las metas y así mismo entregar información suficiente a los niveles gerenciales para que se verifiquen avances y se puedan tomar decisiones.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-4
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/25.png')
 
-      .col-8
+      .col-md-8.col-12.mb-2.mb-md-0
         .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-4
           .row 
-            .col-4
+            .col-md-4.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/26.svg')
-            .col-8
+            .col-md-8.col-12.mb-2.mb-md-0
               p En conclusión, la información organizacional sirve para el seguimiento y la toma de decisiones a:
               .row 
                 .col-6
@@ -655,7 +655,7 @@
                         i.fas.fa-circle
                         | Cambio de mentalidad a largo plazo. 
 
-    p(data-aos="fade-right").mb-5 Los principios de la calidad están directamente relacionados con las acciones de mejora continua ya que estos sugieren que: 
+    p(data-aos="fade-right").mb-5 Los principios de la calidad están directamente relacionados con las acciones de mejora continua, ya que estos sugieren que: 
 
     .row.justify-content-center 
       .col-10
@@ -663,7 +663,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h3 Principio 1
-              p  Las acciones de la organización están enfocadas hacia el cliente ya que dependen de ellos y por tanto debe existir una amplia comprensión de sus necesidades actuales y futuras, se debe dar cumplimiento a sus requerimientos y hacer un gran esfuerzo por ir más allá de sus expectativas. 
+              p  Las acciones de la organización están enfocadas hacia el cliente, ya que dependen de ellos y por tanto debe existir una amplia comprensión de sus necesidades actuales y futuras, se debe dar cumplimiento a sus requerimientos y hacer un gran esfuerzo por ir más allá de sus expectativas. 
       
             .col-md-6
               figure
@@ -779,7 +779,7 @@
     p(data-aos="fade-right").mb-5 A nivel conceptual la evolución de los procesos relacionados con ciclos de mejora se desarrolló de la siguiente manera: 
 
     .row.justify-content-center.mb-5
-      .col-3
+      .col-md-3.col-10.mb-2.mb-md-0
         LineaTiempoE.color-primario
           .row(titulo="1920" subtitulo="")
             .col.mb-4.mb-lg-0
@@ -835,10 +835,10 @@
       h2 1.2 Comunicación
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-4
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/39.svg')
 
-      .col-8
+      .col-md-8.col-12.mb-2.mb-md-0
         p Lo primero que se debe abordar son los aspectos generales en torno a la comunicación empresarial y los equipos de trabajo, ya que por medio de ellos se logra operativizar todas las acciones propuestas en los procesos de mejora continua. La comunicación empresarial es definida como el grupo de procesos que se tienen en una organización con el objetivo de transmitir información de tipo institucional tanto a nivel interno como externo, por medio de diversas estrategias. Trabajar en pro de la comunicación empresarial favorece la realización de los objetivos de la compañía y por tanto la adecuada función de todos los colaboradores internos. 
         p.mb-5 Para favorecer la correcta ejecución de estos objetivos, se debe comprender los diferentes elementos que componen la comunicación empresarial:     
 
@@ -1036,7 +1036,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/48.svg', alt='Texto que describa la imagen')
         h3.text-center Comunicación horizontal
-        p Se da entre trabajadores del mismo rango, por ejemplo, colegas de la misma área. No es de orden jerárquico, se usa para compartir datos, información, dar gestión a solicitudes entre otras.
+        p Se da entre trabajadores del mismo rango, por ejemplo, colegas de la misma área. No es de orden jerárquico, se usa para compartir datos, información, dar gestión a solicitudes, entre otras.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -1094,9 +1094,9 @@
       .col-10 
         .tarjeta.color-secundario2.p-4(style="border-radius:0")
           .row.align-items-center 
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/56.svg')
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -1114,9 +1114,9 @@
       .col-10 
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.align-items-center 
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/57.svg')
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -1173,7 +1173,7 @@
     .BGIMG01.p-4.mb-5
       PasosB.color-primario
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0.col-ipad
             p El trabajo en equipo se genera por la necesidad de lograr el alcance de las metas empresariales por medio de diversas:
             ul.lista-ul--color
               li 
@@ -1188,11 +1188,11 @@
               li 
                 i.fas.fa-circle
                 |	Técnicas.
-          .col-md-5
+          .col-md-5.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/60.png', alt='Texto que describa la imagen')
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0.col-ipad
             p Adicional a los beneficios estratégicos, se obtienen beneficios a nivel personal como:
             ul.lista-ul--color
               li 
@@ -1213,11 +1213,11 @@
               li 
                 i.fas.fa-circle
                 |	Autoestima.
-          .col-md-5
+          .col-md-5.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/61.png', alt='Texto que describa la imagen')
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0.col-ipad
             p Para que exista un verdadero trabajo en equipo deben existir elementos como:
             ul.lista-ul--color
               li 
@@ -1235,11 +1235,11 @@
               li 
                 i.fas.fa-circle
                 |	Compromiso. 
-          .col-md-5
+          .col-md-5.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/62.png', alt='Texto que describa la imagen')
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0.col-ipad
             p Los principales beneficios del trabajo en equipo consisten en:
             ul.lista-ul--color
               li 
@@ -1258,11 +1258,11 @@
                 i.fas.fa-circle
                 |	Mejorar los lazos interpersonales.
 
-          .col-md-5
+          .col-md-5.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/63.png', alt='Texto que describa la imagen')
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7.mb-4.mb-md-0.col-ipad
             p Las condiciones esenciales para conformar un equipo de trabajo consisten en: 
             ul.lista-ul--color
               li 
@@ -1281,14 +1281,14 @@
                 i.fas.fa-circle
                 |	Establecer el correcto proceso para la toma de decisiones. 
 
-          .col-md-5
+          .col-md-5.col-ipad
             figure
               img(src='@/assets/curso/temas/tema1/64.png', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-3
+      .col-md-3.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/65.svg')
-      .col-9
+      .col-md-9.col-12.mb-2.mb-md-0
         p Más allá de la conformación del equipo de trabajo, es necesario que estos sean eficientes, lo que se logra por medio de: 
         ul.lista-ul--color
           li 
@@ -1384,10 +1384,10 @@
       .col-10
         .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/74.svg')
 
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               p Se debe diferenciar los conceptos entre líder, liderato y liderazgo. 
               ul.lista-ul--color
                 li 
@@ -1403,29 +1403,29 @@
     p(data-aos="fade-right").mb-5 Dentro de los tipos de liderazgo se pueden identificar: 
 
     .row.justify-content-center.mb-5
-      .col-4
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/75.svg').mb-5
         h3 Autocrático o autoritario
         p Este tipo de líder crea las metas sin contar con la participación del equipo de trabajo. Posee poca fe y entusiasmo en las personas subordinadas. A nivel general cree que el dinero es la única recompensa para sus colaboradores, así que da órdenes, no permite las preguntas ni tampoco entrega explicaciones. 
-      .col-4
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/76.svg').mb-5
         h3 Democrático o participativo
-        p Las tomas de decisiones son compartidas entre el equipo de trabajo y el líder, ya que éste es un miembro más del equipo. Este tipo de líder cree en su equipo y por tanto las tareas son asimiladas de forma libre por cada uno de los miembros del equipo sin ejercer presiones, ya que lo más importante es la asimilación de responsabilidades en busca del bien común. Adicional a esto mantiene una comunicación constante, fluida y si es necesario entrega las explicaciones que el equipo requiera. 
-      .col-4
+        p Las tomas de decisiones son compartidas entre el equipo de trabajo y el líder, ya que éste es un miembro más del equipo. Este tipo de líder cree en su equipo y por tanto, las tareas son asimiladas de forma libre por cada uno de los miembros del equipo sin ejercer presiones, ya que lo más importante es la asimilación de responsabilidades en busca del bien común. Adicional a esto mantiene una comunicación constante, fluida y si es necesario entrega las explicaciones que el equipo requiera. 
+      .col-md-4.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/77.svg').mb-5
         h3 Laissez faire (liberal)
         p Existe libertad completa de equipo de trabajo con una participación limitada por parte del líder, quien no establece las metas claras para el equipo de trabajo. La toma de decisiones es asumida por cualquier miembro del equipo de trabajo y el líder no tiene ningún intento por evaluar o darle control a los sucesos o eventos que suceden y que pueden afectar la organización.   
 
-    p(data-aos="fade-right").mb-5 Para finalizar es importante abordar la reflexión realizada por el señor Alfonso Silíceo, quien aclara a que se refiere el liderazgo y la jerarquía. Acorde con lo expuesto por esta persona se puede presentar los siguientes escenarios: 
+    p(data-aos="fade-right").mb-5 Para finalizar es importante abordar la reflexión realizada por el señor Alfonso Silíceo, quien aclara a que se refiere el liderazgo y la jerarquía. Acorde con lo expuesto por esta persona, se puede presentar los siguientes escenarios: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.justify-content-center.align-items-center
-            .col-2
+            .col-md-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/78.svg')
 
-            .col-10
+            .col-md-10.col-12.mb-2.mb-md-0
               p Se debe diferenciar los conceptos entre líder, liderato y liderazgo. 
               ul.lista-ul--color
                 li 
@@ -1455,7 +1455,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Tradicionales
-            p Se basan en las funciones y actividades que vinculan a los miembros. Su conformación suele darse de manera controlada por parte de la organización teniendo en cuenta los objetivos estratégicos planteados.
+            p Se basan en las funciones y actividades que vinculan a los miembros. Su conformación suele darse de manera controlada por parte de la organización, teniendo en cuenta los objetivos estratégicos planteados.
 
           .col-md-6
             figure
@@ -1481,7 +1481,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h3 Auto dirigidos
+            h3 Autodirigidos
             p Toman los objetivos a cumplir y los ejecutan de manera autónoma sin existencia de un líder o una ejecución jerárquica. Su conformación es flexible.
 
           .col-md-6
@@ -1538,9 +1538,9 @@
             |	Se debe prevenir la desintegración del equipo de trabajo ya que esto impacta de manera negativa en la ejecución de las actividades asignadas. 
 
     .row.mb-5
-      .col-5
+      .col-md-5.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/86.png')
-      .col-7
+      .col-md-7.col-12.mb-2.mb-md-0
         p Para que los equipos de trabajo puedan lograr las metas propuestas es necesario:
         ul.lista-ul--color
           li 
@@ -1563,10 +1563,10 @@
 
     .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
       .row.justify-content-center.align-items-center
-        .col-2
+        .col-md-2.col-12.mb-2.mb-md-0
           img(src='@/assets/curso/temas/tema1/87.svg')
 
-        .col-10
+        .col-md-10.col-12.mb-2.mb-md-0
           ul.lista-ul--color
             li 
               i.fas.fa-chevron-right(style="color:#00223D")
@@ -1757,9 +1757,9 @@
     p(data-aos="fade-right").mb-5 La gestión del talento humano incluye varios elementos o actividades que se desarrollan dentro del área, estas actividades son: 
 
     .row.mb-5
-      .col-6
+      .col-md-6.col-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema1/94.png')
-      .col-6 
+      .col-md-6.col-12.mb-2.mb-md-0
         ul.lista-ul--color
           li 
             i.fas.fa-circle
@@ -1838,7 +1838,7 @@
             |	Realizar la terminación del contrato laboral cuando el caso lo amerite. 
 
 
-    p(data-aos="fade-right").mb-5 El hecho de contar con un buen proceso de gestión del talento humano tiene algunos beneficios dentro de la organización los cuales pueden describirse como mejor productividad, menos pérdidas económicas, incremento de la satisfacción laboral y mayor lealtad y compromiso por parte de los colaboradores internos. 
+    p(data-aos="fade-right").mb-5 El hecho de contar con un buen proceso de gestión del talento humano tiene algunos beneficios dentro de la organización, los cuales pueden describirse como mejor productividad, menos pérdidas económicas, incremento de la satisfacción laboral y mayor lealtad y compromiso por parte de los colaboradores internos. 
 
 </template>
 

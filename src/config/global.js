@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Seguimiento y control de actividades, mejora continua y proceso administrativo. ',
     descripcionCurso:
-      'Las acciones de mejora continua son indispensables en la ejecución del plan de direccionamiento estratégico ya que permiten corregir aquellas desviaciones detectadas y así lograr un proceso de evaluación y seguimiento efectivo que permita no sólo la mejora y el alcance de altos estándares de calidad, sino también la estandarización de las buenas prácticas dentro de la organización. ',
+      'Las acciones de mejora continua son indispensables en la ejecución del plan de direccionamiento estratégico, ya que permiten corregir aquellas desviaciones detectadas y así lograr un proceso de evaluación y seguimiento efectivo que permita no sólo la mejora y el alcance de altos estándares de calidad, sino también la estandarización de las buenas prácticas dentro de la organización. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -134,7 +134,7 @@ export default {
         'López Lemos, P. (2016). Herramientas para la mejora de la calidad: métodos para la mejora continua y la solución de problemas. FC Editorial.  ',
       tipo: 'Libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114213.',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114213',
     },
   ],
   glosario: [
@@ -156,7 +156,7 @@ export default {
     {
       termino: 'Evaluación',
       significado:
-        'Es el análisis de los planes, programas o proyectos cuando estos estén siendo realizados o ya estén ejecutados. por medio de la evaluación se puede evidenciar los progresos y los resultados.  ',
+        'Es el análisis de los planes, programas o proyectos cuando estos estén siendo realizados o ya estén ejecutados. Por medio de la evaluación se puede evidenciar los progresos y los resultados.  ',
     },
     {
       termino: 'Evaluación exante',
@@ -164,7 +164,7 @@ export default {
         'Es la que se realiza antes de que sean iniciadas las actividades y su finalidad es analizar la viabilidad de estas. ',
     },
     {
-      termino: 'Evaluación expost',
+      termino: 'Evaluación <em>expost</em>',
       significado:
         'Es la que se realiza al terminar una actividad y el cronograma inicial. por medio de esta se puede definir los logros inmediatos y a mediano plazo. ',
     },
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'Indicadores de logro',
       significado:
-        'Se refieren a todos los hechos que sean concretos, verificables, medibles evaluables que son definidos a partir de cada objetivo. ',
+        'Se refieren a todos los hechos que sean concretos, verificables, medibles, evaluables que son definidos a partir de cada objetivo. ',
     },
     {
       termino: 'Indicadores de producto',
@@ -223,7 +223,7 @@ export default {
     {
       referencia:
         'Ana Isabel Sordo. (16 de mayo de 2022). ¿Qué es la comunicación empresarial?, introducción completa. ',
-      link: 'https://blog.hubspot.es/marketing/comunicacion-empresarial. ',
+      link: 'https://blog.hubspot.es/marketing/comunicacion-empresarial',
     },
     {
       referencia:
@@ -235,7 +235,7 @@ export default {
       referencia:
         'CEP, E. (Il.). (2014). Teoría de herramientas informáticas para auxiliares administrativos. Manual Ámbito Intersectorial. Editorial CEP, S.L. ',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51071. ',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51071',
     },
     {
       referencia:
@@ -257,7 +257,7 @@ export default {
       referencia:
         'López Lemos, P. (2016). Herramientas para la mejora de la calidad: métodos para la mejora continua y la solución de problemas. FC Editorial. ',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114213. ',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114213',
     },
     {
       referencia:
@@ -293,12 +293,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -385,12 +385,12 @@ export default {
       autores: [
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
