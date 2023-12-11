@@ -1527,7 +1527,7 @@
           br
           li 
             i.fas.fa-circle
-            |	Es importante gestionar la capacitación y entrenamiento de los miembros del equipo de trabajo con el fin de fomentar el desarrollo de las capacidades lo que impacta de manera positiva la ejecución de las actividades. 
+            |	Es importante gestionar la capacitación y entrenamiento de los miembros del equipo de trabajo con el fin de fomentar el desarrollo de las capacidades, lo que impacta de manera positiva la ejecución de las actividades. 
           br
           li 
             i.fas.fa-circle
@@ -1535,7 +1535,7 @@
           br
           li 
             i.fas.fa-circle
-            |	Se debe prevenir la desintegración del equipo de trabajo ya que esto impacta de manera negativa en la ejecución de las actividades asignadas. 
+            |	Se debe prevenir la desintegración del equipo de trabajo, ya que esto impacta de manera negativa en la ejecución de las actividades asignadas. 
 
     .row.mb-5
       .col-md-5.col-12.mb-2.mb-md-0
