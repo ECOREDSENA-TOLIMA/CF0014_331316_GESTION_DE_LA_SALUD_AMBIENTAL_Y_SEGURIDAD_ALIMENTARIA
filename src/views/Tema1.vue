@@ -373,58 +373,19 @@
               img(src='@/assets/curso/temas/tema1/18.svg' alt='AvatarTop')
           h3 Cobertura documental
           p Puede ser de uno o varios documentos.
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/19.png')})`}"
-      )
-      .bloque-texto-g__texto.p-5
-        p.mb-0 Se debe tener presente que la búsqueda en las bases de datos puede darse:
-        br
-        br
-        ul.lista-ul--color
-          li 
-            ul
-              li
-                ul
-                  li
-                    ul
-                      li
-                        i.fas.fa-circle
-                        | De manera directa.
-          br
-          br
-          li 
-            ul
-              li
-                ul
-                  li
-                    ul
-                      li
-                        i.fas.fa-circle
-                        | Por medio de índices.
-          br
-          br
-          li 
-            ul
-              li
-                ul
-                  li
-                    ul
-                      li
-                        i.fas.fa-circle
-                        | En jerarquía.
-          br
-          br
-          li 
-            ul
-              li
-                ul
-                  li
-                    ul
-                      li
-                        i.fas.fa-circle
-                        | Por medio de códigos. 
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              | De manera directa.
+            li 
+              i.lista-ul__vineta
+              | Por medio de índices.
+            li 
+              i.lista-ul__vineta
+              | En jerarquía.
+            li 
+              i.lista-ul__vineta
+              | Por medio de códigos.
 
     p(data-aos="fade-right") Tal y como lo expone la UNESCO, los denominados principios éticos fueron debatidos teniendo en cuenta los criterios de tipo ético, legal y social respecto al uso de las diversas tecnologías de la información y de la comunicación (TIC).  
     p(data-aos="fade-right").mb-5 La UNESCO en estrecha colaboración con los estados miembros, realiza un gran trabajo en pro del fortalecimiento de las dimensiones éticas de la sociedad de la información, lo que favorece las decisiones de la Cumbre Mundial sobre la Sociedad de la Información (CMSI), quienes plantean un acceso libre, sin presencia de obstáculos y utilizando redes interactivas.  
