@@ -15,9 +15,9 @@
         p.mb-5 Antes de indagar los aspectos generales del Sistema De Gestión de Calidad (SGC), es importante dar el concepto de sistema de gestión, el cual es definido como un conjunto de componentes que tienen impacto a nivel decisional, funcional y operativo que actúan de manera conjunta para dar cumplimiento a los objetivos empresariales.
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.align-items-center 
-            .col-md-4.col-12.mb-2.mb-md-0
+            .col-lg-4.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/2.svg')
-            .col-md-8.col-12.mb-2.mb-md-0
+            .col-lg-8.col-12.mb-2.mb-md-0
               p Dentro del sistema de gestión se ven inmersos procesos que se ejecutan en todos los niveles de la organización, tanto a nivel operativo, táctico y estratégico:
               .row
                 .col-6
@@ -67,10 +67,10 @@
 
     .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
       .row.justify-content-center.align-items-center
-        .col-md-2.col-12.mb-2.mb-md-0
+        .col-lg-2.col-12.mb-2.mb-md-0
           img(src='@/assets/curso/temas/tema2/4.svg')
 
-        .col-md-10.col-12.mb-2.mb-md-0
+        .col-lg-10.col-12.mb-2.mb-md-0
           ul.lista-ul--color
             li 
               i.fas.fa-chevron-right(style="color:#00223D")
@@ -187,10 +187,10 @@
       .col-10
         .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/15.svg')
 
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.col-12.mb-2.mb-md-0
               p Para lograr un adecuado SGC es indispensable contar varios elementos dentro de los cuales se destacan:
               ul.lista-ul--color
                 li 
@@ -203,9 +203,13 @@
                   i.fas.fa-chevron-right(style="color:#00223D")
                   |	Seguimiento.
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Estándares de calidad
+    .row.align-items-center.mb-4
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3(style=" color: #455B2D;") Estándares de calidad
 
     p(data-aos="fade-right") Los estándares de calidad son definidos como los puntos de referencia los cuales debe cumplir un servicio o un producto, con el fin de cumplir con las expectativas exigidas por el cliente o en otros escenarios, por las exigencias exigidas en la norma. El estándar de calidad se caracteriza por ser el parámetro de evaluación de la calidad esperada. 
     p(data-aos="fade-right").mb-5 Dentro de los estándares de calidad se puede visualizar el nivel máximo aceptable de calidad en el marco de una acción, una actividad, un programa o un servicio con el fin de obtener excelencia en los procesos. En los tipos de estándares de calidad se pueden distinguir aquellos que están enfocados en: 
@@ -214,10 +218,10 @@
       .col-10
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/16.svg')
 
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -230,10 +234,15 @@
                   |	La calidad del servicio. 
 
     p(data-aos="fade-right").mb-5 Dentro de los estándares de calidad es importante tener en cuenta los estándares de calidad en el marco del Sistema Obligatorio Garantía de la Calidad SOGC, de la inspección, vigilancia y control sanitario y los estándares de calidad para certificación institucional más conocidos como las normas ISO.   
+    
+    .row.align-items-center.mb-4
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3(style=" color: #455B2D;") Técnicas para la evaluación y seguimiento
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Técnicas para la evaluación y seguimiento
 
     p(data-aos="fade-right").mb-5 Las acciones de seguimiento y evaluación favorecen la eficacia en los procesos al tener una vinculación clara entre las intervenciones pasadas, presentes y futuras acorde con los resultados. La evaluación y el seguimiento ayudan a que la organización pueda obtener la información pertinente con el fin de realizar ajustes, orientación y planificación de nuevas estrategias en pro de garantizar el cumplimiento de los objetivos expuestos. Dentro de los propósitos generales de la evaluación y el seguimiento se encuentran:
 
@@ -241,10 +250,10 @@
       .col-10
         .tarjeta.color-secundario2.p-4(style="border-radius:0")
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/17.svg')
 
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -261,19 +270,19 @@
     p(data-aos="fade-right").mb-5 En tal sentido, es importante describir algunos conceptos relacionados con evaluación y seguimiento:
 
     .row.justify-content-center.mb-5
-      .col-md-3.col-12.mb-2.mb-md-0
+      .col-lg-3.col-md-6.col-sm-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema2/18.png').mb-5
         h3 Seguimiento
         p Es una acción continua que tiene como objetivo principal dar la información necesaria a la organización para realizar las intervenciones que sean necesarias para procurar el cumplimiento de las acciones establecidas.
-      .col-md-3.col-12.mb-2.mb-md-0
+      .col-lg-3.col-md-6.col-sm-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema2/19.png').mb-5
         h3 Evaluación
         p Es la acción para evaluar de manera sistemática y objetiva el logro hacia las metas definidas a nivel organizacional.
-      .col-md-3.col-12.mb-2.mb-md-0
+      .col-lg-3.col-md-6.col-sm-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema2/20.png').mb-5
         h3 Retroalimentación
         p Se define como un proceso por medio del cual se divulga la información que se requiere para determinar los resultados del seguimiento y la evaluación realizada a los procesos.
-      .col-md-3.col-12.mb-2.mb-md-0
+      .col-lg-3.col-md-6.col-sm-12.mb-2.mb-md-0
         img(src='@/assets/curso/temas/tema2/21.png').mb-5
         h3 Control
         p Es considerado como una función administrativa la cual ayuda a evaluar en rendimiento. Acorde con lo expuesto por Melinkoff (1990), el control permite verificar si todo se realiza acorde con lo planeado y a los objetivos estratégicos definidos.
@@ -319,9 +328,9 @@
       .col-10
         .tarjeta.color-primario1.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/24.svg')
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -356,7 +365,7 @@
     .row.justify-content-center 
       .col-md-10.col-12.mb-2.mb-md-0
         .row.justify-content-center 
-          .col-md-6.col-12.mb-2.mb-md-0
+          .col-lg-6.col-12.mb-2.mb-md-0
             p Estos últimos (eficiencia y eficacia), se conocen como:
             .row 
               .col-md-6.col-12.mb-2.mb-md-0
@@ -387,17 +396,17 @@
                   li 
                     i.fas.fa-circle
                     | Procesos.
-          .col-md-6.col-12.mb-2.mb-md-0
+          .col-lg-6.col-12.mb-2.mb-md-0
             img(src='@/assets/curso/temas/tema2/26.png')
 
     p(data-aos="fade-right").mb-5 Los cuales pertenecen al subsistema denominado de seguimiento que permite evaluar el uso de los recursos durante la ejecución de los diversos planes, programas y proyectos organizacionales. Los indicadores de gestión ayudan a evaluar la productividad física de los insumos que se utilizan en los procesos organizacionales de la siguiente manera: 
 
     .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-3.col-12.mb-2.mb-md-0
+            .col-lg-3.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/27.svg')
 
-            .col-md-9.col-12.mb-2.mb-md-0
+            .col-lg-9.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -424,9 +433,9 @@
       .col-10
         .tarjeta.color-primario1.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/28.svg')
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.col-12.mb-2.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right(style="color:#00223D")
@@ -482,9 +491,13 @@
 
     p(data-aos="fade-right").mb-5 Adicional a la comprensión respecto a los tipos de indicadores que se pueden tener dentro de la estructura organizacional es importante conocer cómo se construyen y qué elementos los componen: 
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Componentes de un indicador 
+    .row.align-items-center.mb-4
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3(style=" color: #455B2D;") Componentes de un indicador 
 
     .tarjeta.color-secundario2.p-4.mb-5
       .row.justify-content-center 
@@ -573,10 +586,10 @@
       .col-md-10.col-12.mb-2.mb-md-0
         .tarjeta.color-primario1.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/34.svg')
 
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.mb-2.mb-md-0
               p #[b Control organizacional:] realiza comparación de lo planeado con las acciones que se estén realizando, ayuda a implementar rutinas y procedimientos estandarizados. 
     
     p(data-aos="fade-right") Los #[b procedimientos estandarizados], se utilizan para garantizar que los procesos sean uniformes y consistentes acorde con las características de los servicios o productos ofertados por la organización. Dentro de los procedimientos estandarizados se realiza la descripción detallada de realizar una tarea, teniendo en cuenta buenas prácticas y procesos de calidad acordes con los objetivos estratégicos planteados. La aplicación de los procedimientos estandarizados permite que los niveles de calidad y servicio sean óptimos, permitiendo la minimización o eliminación de errores y riesgos asociados a la ejecución de las actividades asociadas. 
@@ -586,10 +599,10 @@
       .col-md-10.col-12.mb-2.mb-md-0
         .tarjeta.color-secundario2.p-4(style="border-radius:0").mb-5
           .row.justify-content-center.align-items-center
-            .col-md-2.col-12.mb-2.mb-md-0
+            .col-lg-2.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema2/35.svg')
 
-            .col-md-10.col-12.mb-2.mb-md-0
+            .col-lg-10.mb-2.mb-md-0
               p #[b Control directivo:] compara los resultados de la organización con el sector externo, es decir, con el entorno y la competencia. El control directivo trabaja en pro del futuro analizando si las acciones presentes han sido seleccionadas de manera correcta. 
 
     .row.justify-content-center.align-items-center.mb-5

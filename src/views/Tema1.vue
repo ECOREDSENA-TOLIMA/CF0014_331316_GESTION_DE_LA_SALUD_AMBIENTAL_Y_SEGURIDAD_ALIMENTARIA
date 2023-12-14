@@ -286,7 +286,7 @@
 
     .row.justify-content-center.mb-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario1.p-4
+        .tarjeta.color-primario1.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/14.svg' alt='AvatarTop')
@@ -306,7 +306,7 @@
               i.lista-ul__vineta
               | Cooperación – Red.
 
-        .tarjeta.color-primario1.p-4
+        .tarjeta.color-primario1.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/15.svg' alt='AvatarTop')
@@ -323,7 +323,7 @@
               i.lista-ul__vineta
               | Base de datos en línea (conexión telefónica, internet, vía web).
 
-        .tarjeta.color-primario1.p-4
+        .tarjeta.color-primario1.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/16.svg' alt='AvatarTop')
@@ -349,7 +349,7 @@
               i.lista-ul__vineta
               | Del gran público.
 
-        .tarjeta.color-primario1.p-4
+        .tarjeta.color-primario1.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/17.svg' alt='AvatarTop')
@@ -367,7 +367,7 @@
               i.lista-ul__vineta
               | Con análisis documental completo e índice de citas. 
 
-        .tarjeta.color-primario1.p-4
+        .tarjeta.color-primario1.p-4.col-ipad
           .row.justify-content-center.mb-3
             .col-md-8.col-12.mb-2.mb-md-0
               img(src='@/assets/curso/temas/tema1/18.svg' alt='AvatarTop')
@@ -589,9 +589,10 @@
       .col-10 
         .tarjeta.color-primario1.p-4(style="border-radius:0")
           .row.align-items-center 
-            .col-2
+          .row.justify-content-center.align-items-center.mb-5            
+            .col-lg-2
               img(src='@/assets/curso/temas/tema1/27.svg')
-            .col-10
+            .col-lg-10
               ol.lista-ol--cuadro
                 li 
                   .lista-ol--cuadro__vineta
@@ -997,10 +998,10 @@
             |	Medición de los resultados.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-5
+      .col-lg-5
         img(src='@/assets/curso/temas/tema1/46.png')
 
-      .col-7
+      .col-lg-7
         p Tener presente que la comunicación empresarial tiene como objetivos:
         ul.lista-ul--color
           li 
